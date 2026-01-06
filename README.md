@@ -1,22 +1,33 @@
 🛒 GeekVerse Store
 
-E-commerce geek desenvolvido com React, focado em performance, responsividade e arquitetura escalável.
+E-commerce geek em desenvolvimento, com foco em arquitetura escalável, boas práticas e evolução gradual do backend monolítico para uma API REST desacoplada.
 
 🚀 Tecnologias
+Frontend
 
-React.js (Frontend)
-
-CSS / Styled Components
+React.js
 
 JavaScript (ES6+)
 
-MySQL (Banco de dados)
+CSS / Styled Components
 
-API REST (em evolução)
+Backend (atual)
+
+PHP
+
+MySQL (banco de dados local)
+
+Backend (planejado)
+
+API REST
+
+Backend desacoplado do frontend
 
 📱 Responsividade
 
-Aplicação totalmente responsiva, adaptada para:
+⚠️ Responsividade será aplicada na fase final do projeto
+
+Estrutura pensada para adaptação em:
 
 Desktop
 
@@ -24,13 +35,11 @@ Tablets
 
 Smartphones
 
-Pensada para uma experiência fluida em qualquer tela.
-
 🗄️ Banco de Dados
 
 MySQL como base inicial
 
-Estrutura preparada para:
+Estrutura em evolução para suportar:
 
 Produtos
 
@@ -40,17 +49,24 @@ Usuários
 
 Pedidos
 
-➡️ O banco será futuramente integrado a uma API remota, desacoplando o backend do frontend.
+Observação:
+A modelagem do banco de dados pode sofrer alterações conforme a evolução do projeto e da API.
 
 🔌 Arquitetura
 
-Frontend desacoplado
+Frontend em React
 
-Consumo de dados via API
+Backend em PHP com banco local
 
-Preparado para escalabilidade e manutenção
+Preparado para:
 
-🧩 Funcionalidades
+Migração para API REST
+
+Desacoplamento frontend/backend
+
+Escalabilidade e manutenção
+
+🧩 Funcionalidades (atuais)
 
 Listagem de produtos geek
 
@@ -63,8 +79,17 @@ Layout moderno e intuitivo
 🛠️ Status do Projeto
 
 🚧 Em desenvolvimento
-🔄 Backend em transição para API REST
+🔄 Backend em evolução
+📌 Estrutura, documentação e API estão sujeitas a mudanças
 
 💡 Objetivo
 
-Criar um e-commerce geek moderno, performático e pronto para produção, seguindo boas práticas do mercado.
+Desenvolver um e-commerce geek moderno, aplicando conceitos reais do mercado:
+
+Separação de responsabilidades
+
+Consumo de API
+
+Escalabilidade
+
+Manutenibilidade
