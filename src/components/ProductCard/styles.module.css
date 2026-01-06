@@ -1,0 +1,69 @@
+.containerCard {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cardUnique {
+    padding: 20px;
+    display: block;
+    width: 20%
+}
+
+.infinityCard{
+display: inline;
+text-align: right;
+
+
+font-size: 20pt;
+font-family:  Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: aliceblue;
+
+background-color: #DB6264;
+padding: 2px 20px ;
+border-radius: 25px;
+
+position: relative;
+
+top: 8%;
+left: 80%;
+
+}
+.ProductImage {
+    border-radius: 20px 20px 0px 0;
+    width: 100%;
+    
+}
+
+.product_description {
+    text-align: center;
+    margin: 10px 0 ;
+}
+
+.description_text {
+    margin: 0 5px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    font-weight: 500;
+}
+.description_value{
+
+    color: #243F68;
+     font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    font-weight: 700;
+    margin: 10px 0 5px 0 ;
+}
+.btn_comprar{
+    width: 100%;
+    height: 10%;
+    background-color:#DB6264 ;
+    border: none;
+    border-radius: 0 0 20px 20px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12pt;
+    color: aliceblue;
+    font-weight: 700;
+}

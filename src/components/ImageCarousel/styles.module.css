@@ -1,0 +1,91 @@
+.carouselContainer {
+margin-top: 20px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.carousel {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.carouselImage {
+  width: 100%;
+
+  height: auto;
+  display: block;
+  transition: opacity 0.3s ease;
+}
+
+.prevBtn, .nextBtn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0);
+  color: transparent;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.prevBtn {
+  left: 10px;
+}
+
+.nextBtn {
+  right: 10px;
+}
+
+.indicators {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ccc;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: 
+    width 0.4s ease-in-out,
+    border-radius 0.4s ease-in-out,
+    background 0.4s ease-in-out;
+}
+
+.indicator.active {
+  width: 45px;
+  border-radius: 30px;
+  height: 10px;
+  background: #DB6264;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .carouselContainer {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+  
+  .prevBtn, .nextBtn {
+    padding: 8px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .prevBtn, .nextBtn {
+    display: none; /* Oculta botões em telas muito pequenas, navegação apenas por indicadores */
+  }
+  
+  .indicators {
+    margin-top: 15px;
+  }
+}

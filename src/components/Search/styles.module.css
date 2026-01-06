@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.searchBar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input,
+button {
+    height: 25%;
+    padding: 0 12px;
+    font-size: 16px;
+    line-height: 1;
+    box-sizing: border-box;
+}
+
+.inputSearch {
+    width: 90%;
+
+    padding-left: 2%;
+    color: #DB6264;
+    font-size: 20pt;
+    border-color: #8F8F8F;
+    border-width: 1px 0px 1px 1px;
+    border-radius: 20px 0 0 20px;
+}
+
+.inputSearch::placeholder {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 2%;
+    color: #DB6264;
+    font-size: 14pt;
+}
+
+
+
+.btnSearcstyles {
+    width: 10%;
+
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #7894C7;
+    border-color: #8F8F8F;
+    border-width: 1px 1px 1px 0px;
+    border-radius: 0 20px 20px 0;
+}
+
+FontAwesomeIcon {
+    color: #8F8F8F;
+    background-color: #7894C7;
+}
