@@ -1,58 +1,81 @@
+/* ===========================
+   Fontes
+=========================== */
+@font-face {
+  font-family: 'Alumni Sans SC';
+  src: url('../../assets/fonts/alumni-sans-sc/static/AlumniSansSC-Medium.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Alumni Sans SC';
+  src: url('../../assets/fonts/alumni-sans-sc/static/AlumniSansSC-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* ===========================
+   Reset básico
+=========================== */
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* ===========================
+   Barra de busca
+=========================== */
 .searchBar {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+/* ===========================
+   Inputs e botões
+=========================== */
 input,
 button {
-    height: 25%;
-    padding: 0 12px;
-    font-size: 16px;
-    line-height: 1;
-    box-sizing: border-box;
+  height: 40px;
+  padding: 0 12px;
+  font-size: 16px;
+  line-height: 40px;
+  font-family: 'Alumni Sans SC', sans-serif;
+  border: none;
+  background-color: transparent;
 }
 
+/* Campo de busca */
 .inputSearch {
-    width: 90%;
-
-    padding-left: 2%;
-    color: #DB6264;
-    font-size: 20pt;
-    border-color: #8F8F8F;
-    border-width: 1px 0px 1px 1px;
-    border-radius: 20px 0 0 20px;
+  width: 90%;
+  padding-left: 2%;
+  color: #fff;
+  font-size: 40px;
 }
 
+/* Placeholder do campo */
 .inputSearch::placeholder {
-    margin: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding-left: 2%;
-    color: #DB6264;
-    font-size: 14pt;
+  font-family: 'Alumni Sans SC', sans-serif;
+  font-size: 40px;
+  color: #fff; /* opcional: cor mais suave */
 }
 
-
-
+/* Botão de busca */
 .btnSearcstyles {
-    width: 10%;
-
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: bold;
-    background-color: #7894C7;
-    border-color: #8F8F8F;
-    border-width: 1px 1px 1px 0px;
-    border-radius: 0 20px 20px 0;
+  width: 10%;
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
 
-FontAwesomeIcon {
-    color: #8F8F8F;
-    background-color: #7894C7;
+/* Ícone do FontAwesome */
+button img {
+  color: #ffffff;
+ font-size: 40pt;
 }
