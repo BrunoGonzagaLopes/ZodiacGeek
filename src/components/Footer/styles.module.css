@@ -1,0 +1,80 @@
+footer{
+    width: 100%;
+    
+    background-color: black;
+
+    font-family:'Alumni Sans SC', 'Alumni' ;
+    color:#5F6065 ;
+    font-weight: 400;
+    
+
+}
+.infoSection{
+    margin:  0 150px;
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: auto 22% 22% 22%;
+
+}
+.footerLogo{
+    width: 50%;
+}
+.socialLabel{
+    display: block;
+    color: #fff;
+}
+.socialSection{
+    display: flex;
+    gap:10px;
+}
+.socialLink{
+    width: 35px;
+    height: 35px;
+}
+
+
+
+
+
+
+
+.extraInfo{
+    margin: 0 150px;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 2px 0 0 0;
+    border-color:#5F6065 ;
+
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+   
+
+    span{
+        color:#0B8FC9 ;
+    }
+}
+.contactDev{
+    display: flex;
+    justify-content: space-evenly;
+    .curriculo{
+        margin-top: 10px;
+        border-radius: 10px 0 0 10px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #0B8FC9;
+        color: #fff;
+        padding: 0px 32px;
+    }
+    .wpp{
+        margin-top: 10px;
+        border-radius: 0 10px 10px 0;
+        border-style: solid;
+        border-width: 1px;
+        color:#fff;
+        border-color: #5F6065;
+        padding: 0px 32px;
+    }
+}
+
