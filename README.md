@@ -15,7 +15,7 @@ Backend (atual)
 
 PHP
 
-MySQL (banco de dados local)
+PostGree (Supabase)
 
 Backend (planejado)
 
@@ -37,7 +37,7 @@ Smartphones
 
 🗄️ Banco de Dados
 
-MySQL como base inicial
+PostGree com hospedagem no suprabase
 
 Estrutura em evolução para suportar:
 
@@ -56,7 +56,7 @@ A modelagem do banco de dados pode sofrer alterações conforme a evolução do 
 
 Frontend em React
 
-Backend em PHP com banco local
+Backend em PHP 
 
 Preparado para:
 
