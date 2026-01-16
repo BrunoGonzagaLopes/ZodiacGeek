@@ -48,10 +48,11 @@ margin-top: 20px;
 }
 
 .indicator {
+  
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: #ccc;
+  background: #fff;
   margin: 0 5px;
   cursor: pointer;
   transition: 
@@ -64,7 +65,7 @@ margin-top: 20px;
   width: 45px;
   border-radius: 30px;
   height: 10px;
-  background: #DB6264;
+  background: #0B8FC9;
 }
 
 /* Responsividade */

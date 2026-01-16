@@ -8,7 +8,7 @@ const ImageCarousel = () => {
 
   
   useEffect(() => {
-  fetch('/api/flyers.php')
+  fetch('/api/banners.php')
     .then(res => {
       if (!res.ok) throw new Error('Erro na API');
       return res.json();

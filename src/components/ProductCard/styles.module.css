@@ -1,69 +1,96 @@
-.containerCard {
+*{
+    font-family:'Alumni Sans SC', 'Alumni' ;
+    color:#5F6065 ;
+}
+.productCard {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin:10px 10vw;
 }
 
-.cardUnique {
-    padding: 20px;
+.productContent {
     display: block;
-    width: 20%
+    width: 250px;
+   padding: 5px;
+    margin: 20px 0;
 }
-
-.infinityCard{
-display: inline;
-text-align: right;
-
-
-font-size: 20pt;
-font-family:  Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-color: aliceblue;
-
-background-color: #DB6264;
-padding: 2px 20px ;
-border-radius: 25px;
-
-position: relative;
-
-top: 8%;
-left: 80%;
-
+.productContent:hover{
+    border-color: #0B8FC9;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    transform: scale3d(1.1,1.1,1.2);
+    transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
-.ProductImage {
-    border-radius: 20px 20px 0px 0;
+.productImage {
+    border-radius: 10px;
     width: 100%;
     
 }
 
-.product_description {
-    text-align: center;
-    margin: 10px 0 ;
+.productName{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+}
+.productInfo{
+    display: flex;
+    justify-content: space-between;
+}
+.productMaterial {
+    
+    font-weight: 400;
+    font-size: 20px;
+    
+}
+.colorContainer{
+    display: flex;
+    gap: 5px;
+}
+.coloresProductCard{
+    display: inline;
+    width: 10px;
+    height: 10px;
+}
+.productPrice{
+    color: #9b9ca3;
+    font-size: 32px;
 }
 
-.description_text {
-    margin: 0 5px;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20pt;
-    font-weight: 500;
-}
-.description_value{
-
-    color: #243F68;
-     font-family: 'Times New Roman', Times, serif;
-    font-size: 20pt;
+.buyButton{
+    width: 105px;
+    height: 35px;
+    background-color:#0B8FC9 ;
+ 
+    border-radius: 10px;
+    font-size: 24px;
+    color: #000;
     font-weight: 700;
-    margin: 10px 0 5px 0 ;
+    margin: auto;
 }
-.btn_comprar{
-    width: 100%;
-    height: 10%;
-    background-color:#DB6264 ;
-    border: none;
-    border-radius: 0 0 20px 20px;
+.productAction{
+    text-align: center;}
 
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 12pt;
-    color: aliceblue;
-    font-weight: 700;
+    .lançamentoSpan{
+        
+        display: inline;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #000000;
+        border-radius: 5px;
+        color: #000000;
+        padding: 0 10px;
+        margin: 10px 10px ;
+        background-color:#ffffff ;
+        position: absolute;
+        
+
+    }
+.componenteVazio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27pt;
+    margin-top: 25vh;
 }
